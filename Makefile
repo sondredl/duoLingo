@@ -4,4 +4,4 @@ all:
 	python3 py/main.py
 	scala scala/main.scala
 	shell/main.sh
-	cobc cobol/main.cob
+	cobc -x -o cobol/hello cobol/main.cob
